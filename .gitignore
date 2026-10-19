@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Trained models and large artefacts
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.bin
+*.safetensors
+models/
+
+# Data (check licence before publishing)
+data/
+*.csv
+
+# Environments and secrets
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+bert_test/
