@@ -12,6 +12,10 @@ __pycache__/
 *.safetensors
 models/
 
+# Fine-tuned BERT model and training checkpoints
+bert_test/
+bert_phishing/
+
 # Data (check licence before publishing)
 data/
 *.csv
@@ -23,4 +27,3 @@ venv/
 
 # OS
 .DS_Store
-bert_test/
